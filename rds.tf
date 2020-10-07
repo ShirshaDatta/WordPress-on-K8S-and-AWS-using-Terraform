@@ -40,7 +40,7 @@ resource "aws_db_instance" "rds_wp" {
   engine_version         = "5.7"
   identifier             = "wordpress-db"
   username               = "admin"
-  password               = "admin1234%^"
+  password               = "admin123"
   instance_class         = "db.t2.micro"
   storage_type           = "gp2"
   allocated_storage      = 20
